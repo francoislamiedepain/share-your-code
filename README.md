@@ -1,5 +1,9 @@
 # share-your-code
 
+:rocket: Share your static project quickly with 1 command line. :rocket:
+
+
+
 ## Prerequisite
 
 ### Install Docker
@@ -22,7 +26,7 @@ Instantly create a public HTTPS url for a website running locally on your develo
 
 Ngrok offloads TLS so you don't have to worry about your configuration.
 
-### Installation
+## Installation
 
 ```(yaml)
 
@@ -34,7 +38,7 @@ git clone git@github.com:francoislamiedepain/share-your-code.git
 $ cd share-your-code
 ```
 
-### Usage
+## Usage
 
 Simply run command :
 
@@ -42,6 +46,10 @@ Simply run command :
 username@fha share-your-code (main) $ . ./share-your-code.sh
 ```
 
-### Preview
+## Preview
 
 ![Example](Example.gif)
+
+## Share your own content
+
+Simply modify/change current .html, .css , .js files for your own needs. 
