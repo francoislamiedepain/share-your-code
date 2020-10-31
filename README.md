@@ -41,3 +41,13 @@ Simply run command :
 ```(yaml)
 username@fha share-your-code (main) $ . ./share-your-code.sh
 ```
+
+### Preview
+
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="Example.mp4" type="video/mp4">
+  </video>
+</figure>
+<!-- blank line -->
