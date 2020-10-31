@@ -2,7 +2,7 @@
 
 :rocket: Share your static project quickly with 1 command line. :rocket:
 
-
+![Example](Example.gif)
 
 ## Prerequisite
 
@@ -45,10 +45,6 @@ Simply run command :
 ```(yaml)
 username@fha share-your-code (main) $ . ./share-your-code.sh
 ```
-
-## Preview
-
-![Example](Example.gif)
 
 ## Share your own content
 
