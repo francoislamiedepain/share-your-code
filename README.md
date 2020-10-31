@@ -44,4 +44,4 @@ username@fha share-your-code (main) $ . ./share-your-code.sh
 
 ### Preview
 
-![Alt Text](Example.gif)
+![Example](Example.gif)
