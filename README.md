@@ -78,3 +78,8 @@ Then your application can be access from anywhere.
 Traffic is relayed through to the ngrok process running on your machine and then on to the local address you specified. (here `localhost:80`) .
 
 Now, you can demo websites without deploying.
+
+## References
+
+- Static files: https://codepen.io/Tbgse/pen/dYaJyJ
+- Ngrok: https://ngrok.com/
