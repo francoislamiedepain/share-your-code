@@ -3,44 +3,44 @@
 # containerName=nginx
 # dockerPort=80
 
-echo "choose a image name (format : image-name:tag) : "
+printf "choose a image name (format : image-name:tag) : "
 read imageName
 if [ -n "$1" ]; then
-  echo "${imageName}  is set"
+  printf "${imageName}  is set\n"
 else
   imageName=html-server-image:v1
-  echo "${imageName} set by default"
+  printf "${imageName} set by default\n"
 fi
 
-echo "choose a container name : "
+printf "choose a container name : "
 read containerName
 if [ -n "$1" ]; then
-  echo "${containerName}  is set"
+  printf "${containerName}  is set\n"
 else
   containerName=nginx
-  echo "${containerName} set by default"
+  printf "${containerName} set by default\n"
 fi
 
-echo "choose docker port : "
+printf "choose docker port : "
 read dockerPort
 if [ -n "$1" ]; then
-  echo "${dockerPort}  is set"
+  printf "${dockerPort}  is set\n"
 else
   dockerPort=80
-  echo "${dockerPort} set by default"
+  printf "${dockerPort} set by default\n"
 fi
 
-echo Start building container with wimage name $imageName
+printf Start building container with image name $imageName
 docker build -t $imageName -f Dockerfile  .
 
-echo Delete previous container...
+printf Delete previous container...
 docker rm -f $containerName
 
-echo Run new container...
+printf Run new container...
 docker run -d -p $dockerPort:$dockerPort --name $containerName $imageName
 
-echo "ngrok start running ..."
-sleep 10
+printf "ngrok start running ...\n"
+sleep 5
 reverse_proxy="./ngrok http http://localhost"
 reverse_proxy+= $dockerPort
 eval $reverse_proxy
