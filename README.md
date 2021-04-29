@@ -8,7 +8,7 @@
 
 ### Install Docker
 
-- On Windoows: https://docs.docker.com/docker-for-windows/install/
+- On Windows: https://docs.docker.com/docker-for-windows/install/
 
 - On Mac: https://docs.docker.com/docker-for-mac/install/
 
