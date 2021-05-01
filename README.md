@@ -43,7 +43,7 @@ $ cd share-your-code
 Simply run command :
 
 ```(yaml)
-username@fha share-your-code (main) $ . ./share-your-code.sh
+username@fha share-your-code (main) $ ./share-your-code.sh
 ```
 
 ## Share your own content
